@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Steven Berk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<style>
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+   font-family: avenir;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nameBox{
+    height: 100px;
+    width: 650px;
+    margin: 10px;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.experienceContainter {
+    display: flex;
+    width: 850px;
+}
+
+
+
+.experience {
+    width: 600px;
+    height: 450px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+.workIcon {
+    height: 120px;
+    width:  110px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.educationContainer {
+    display: flex;
+    width: 850px;
+}
+
+.education {
+    width: 600px;
+    height: 150px;
+    background-color: aquamarine;
+    margin: 10px;
+    
+}
+.educationIcon {
+    height: 110px;
+    width:  130px;
+    padding: 10px;
+}
+
+
+.boxHeader {
+    text-align: center;
+    margin-top: 1px;
+    font-weight: bold;
+}
+
+.rightAlight {
+    text-align: right;
+}
+
+
+
+.fade {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+</style>
+
+<body>
+<div class="flexContainer ">
+    <div class="nameBox">
+        Steven Berk
+    </div>
+<div class="experienceContainter fade">
+<div class="workIcon">
+    <img src="work.png">
+</div>
+    <div class="experience">
+        <p class="boxHeader">Experience<p>
+        <ul>
+            <li>
+                Property Manager - Self Employed
+                <br>
+                <ul>
+                    <li>
+                    Managed portfolio of several short term rentals accross Boston
+                    </li>
+                    <li>
+                    Maintained 95% occupancy 
+                    </li>
+                    <li>
+                    Used self-collected data to optimize nightly rates
+                    </li>
+                </ul>  
+            </li>
+            <li>
+                Admissions Assistant - Shorelight Education
+               
+                <ul>
+                    <li>
+                    Processed international applications for 12 US colleges and universities
+                    </li>
+                </ul>  
+            </li>
+            <!-- <li>
+                Project Assistant - Internews
+                <br>
+                <ul>
+                    <li>
+                    
+                    </li>
+                </ul>  
+            </li> -->
+        </ul>
+
+    </div>
+</div>
+<div class="educationContainer fade">
+    <div class="educationIcon">
+        <img src="education.png">
+    </div>
+    <div class="education">
+        <p class="boxHeader">Education</p>
+
+        <ul>
+            <li>
+                Northeastern University 
+                <br>
+                <ul>
+                    <li>
+                    Bachelor of Arts - International Relations and Middle East Studies
+                    </li>
+                </ul>    
+            </li>
+            <li>
+                Georgia Perimeter College
+                <br>
+                <ul>
+                    <li>
+                        Associate of Science - Psychology
+                    </li>
+                </ul>    
+            </li>
+        </ul>
+
+    </div>
+</div>
+</div>
+</body>
+</html>
