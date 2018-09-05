@@ -21,14 +21,14 @@ body {
 .flexContainer {
     display: flex;
     flex-direction: column;
-   font-family: avenir;
+    font-family: avenir;
     align-items: center;
     justify-content: center;
     
 }
 
 .nameBox{
-    height: 100px;
+    height: 75px;
     width: 650px;
     margin: 10px;
     font-size: 4em;
@@ -41,11 +41,13 @@ body {
     width: 850px;
 }
 
-
+p {
+    text-align: center;
+}
 
 .experience {
     width: 650px;
-    height: 450px;
+    height: 325px;
     background-color: aquamarine;
     margin: 10px;
 }
@@ -86,7 +88,17 @@ body {
     text-align: right;
 }
 
+.skills {
+    width: 650px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+    
+}
 
+table {
+    width: 100%;
+}
 
 .fade {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -109,6 +121,15 @@ body {
     <div class="nameBox">
         Steven Berk
     </div>
+    <div class ="fade">
+            <p>
+            <a href="mailto:steven.e.berk@gmail.com">Email me</a> 
+            <br>
+            <a href="github.com/stevenberk">GitHub Profile</a> 
+            <br>
+            (678) 357 0741
+            </p>
+        </div>
 <div class="experienceContainter fade">
 <div class="workIcon">
     <img src="work.png">
@@ -149,15 +170,7 @@ body {
                     </li>
                 </ul>  
             </li>
-            <!-- <li>
-                Project Assistant - Internews
-                <br>
-                <ul>
-                    <li>
-                    
-                    </li>
-                </ul>  
-            </li> -->
+            
         </ul>
 
     </div>
@@ -171,7 +184,7 @@ body {
 
         <ul>
             <li>
-                Northeastern University 
+                Northeastern University, Class of 2015
                 <br>
                 <ul>
                     <li>
@@ -180,7 +193,7 @@ body {
                 </ul>    
             </li>
             <li>
-                Georgia Perimeter College
+                Georgia Perimeter College, Class of 2012
                 <br>
                 <ul>
                     <li>
@@ -189,6 +202,75 @@ body {
                 </ul>    
             </li>
         </ul>
+
+    </div>
+</div>
+<div class="educationContainer fade">
+    <div class="educationIcon">
+        <img src="skills.png">
+    </div>
+    <div class="skills">
+        <p class="boxHeader">Skills</p>
+
+
+        <table >
+            <tr>
+                <td>
+                HTML5
+                </td>
+                <td>
+                CSS/Bootstrap
+                </td>
+                <td>
+                JavaScript
+                </td>
+                <td>
+                Python 2.7
+                </td>
+                <td>
+                PostreSQL
+                </td>
+            </tr>
+            <tr>
+                <td>
+                MS Office
+                </td>
+                <td>
+                Adobe Photoshop
+                </td>
+                <td>
+                Adobe Premier 
+                </td>
+                <td>
+                Github
+                </td>
+                <td>
+                JQuery
+                </td>
+            </tr>
+        </table>
+
+        <!-- <ul>
+            <li>
+            HTML5  
+            </li>
+            <li>
+            CSS/Bootstrap
+            </li>
+            <li>
+            JavaScript 
+            </li>
+            </li>
+            <li>
+           Python 2.7 
+            </li>
+            <li>
+            PostreSQL
+            </li>
+            <li>
+            Adobe Photoshop
+            </li>
+        </ul> -->
 
     </div>
 </div>
